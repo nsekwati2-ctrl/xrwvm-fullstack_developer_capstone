@@ -1,6 +1,8 @@
 <html>
 <head>
   <!-- Link the style sheet here -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
 <div>
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
@@ -25,44 +27,46 @@
     </div>
   </nav>
   
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
+  <div class="card" style="width: 80%; margin: auto; margin-top: 5%; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <div class="banner" name="about-header" style="text-align: center; padding: 30px;">
+      <h1>About Us</h1>
+      <p style="font-size: 1.2rem; color: #333;">Welcome to Best Cars Dealership! We provide a curated selection of both domestic and imported vehicles, all at unbeatable prices. Our team is dedicated to helping you find the perfect car to suit your needs.</p>
+    </div>
+
+    <div style="display: flex; justify-content: space-between; margin: 0 10% 5% 10%; flex-wrap: wrap;">
+      <!-- Person 1 -->
+      <div class="card" style="width: 30%; border-radius: 10px; margin-bottom: 20px;">
+        <img class="card-img-top" src="/static/person1.jpg" alt="John Doe" style="border-radius: 10px 10px 0 0;">
         <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+          <h5 class="card-title" style="color: #333;">John Doe</h5>
+          <p class="card-text" style="color: #777; font-size: 1rem;">Sales Manager</p>
+          <p style="font-size: 0.95rem; color: #555;">With over 15 years of experience in the automotive industry, John ensures that each customer leaves satisfied with their perfect vehicle choice.</p>
+          <p><a href="mailto:johndoe@example.com" style="text-decoration: none; color: #00aaff;">johndoe@example.com</a></p>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
+      <!-- Person 2 -->
+      <div class="card" style="width: 30%; border-radius: 10px; margin-bottom: 20px;">
+        <img class="card-img-top" src="/static/person2.jpg" alt="Jane Smith" style="border-radius: 10px 10px 0 0;">
         <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
+          <h5 class="card-title" style="color: #333;">Jane Smith</h5>
+          <p class="card-text" style="color: #777; font-size: 1rem;">Customer Relations</p>
+          <p style="font-size: 0.95rem; color: #555;">Jane is passionate about helping customers find their ideal cars. Her knowledge and dedication ensure a smooth and friendly buying experience.</p>
+          <p><a href="mailto:janesmith@example.com" style="text-decoration: none; color: #00aaff;">janesmith@example.com</a></p>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
+      <!-- Person 3 -->
+      <div class="card" style="width: 30%; border-radius: 10px; margin-bottom: 20px;">
+        <img class="card-img-top" src="/static/person3.jpg" alt="Michael Brown" style="border-radius: 10px 10px 0 0;">
         <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
+          <h5 class="card-title" style="color: #333;">Michael Brown</h5>
+          <p class="card-text" style="color: #777; font-size: 1rem;">Finance Specialist</p>
+          <p style="font-size: 0.95rem; color: #555;">Michael offers expert advice on financing options, helping our customers find the best payment plans that suit their budget and needs.</p>
+          <p><a href="mailto:michaelbrown@example.com" style="text-decoration: none; color: #00aaff;">michaelbrown@example.com</a></p>
         </div>
       </div>
     </div>
-    </div>
-    </div>
-    
+  </div>
 </div>
-
 </html>
